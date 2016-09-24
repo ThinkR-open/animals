@@ -114,3 +114,9 @@ farm_animals <- function(){
 baby_farm_animals <- function(){
   scrap_all("bebe,animaux-de-la-ferme")
 }
+
+#' urls for pictures of reptiles
+#' @export
+reptiles <- function(){
+  scrap_all("reptiles")
+}
