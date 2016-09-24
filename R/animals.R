@@ -84,3 +84,15 @@ rodents <- function(){
 baby_rodents <- function(){
   scrap_all("bebe,rongeurs")
 }
+
+#' urls for pictures of birds
+#' @export
+birds <- function(){
+  scrap_all("oiseaux")
+}
+
+#' urls for pictures of chicks
+#' @export
+chicks <- function(){
+  scrap_all("bebe,oiseaux")
+}
