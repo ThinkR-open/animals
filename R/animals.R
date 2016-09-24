@@ -96,3 +96,21 @@ birds <- function(){
 chicks <- function(){
   scrap_all("bebe,oiseaux")
 }
+
+#' urls for pictures of arthropods
+#' @export
+arthropods <- function(){
+  scrap_all("arthropodes")
+}
+
+#' urls for pictures of farm animals
+#' @export
+farm_animals <- function(){
+  scrap_all("animaux-de-la-ferme")
+}
+
+#' urls for pictures of farm animals
+#' @export
+baby_farm_animals <- function(){
+  scrap_all("bebe,animaux-de-la-ferme")
+}
