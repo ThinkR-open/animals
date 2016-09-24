@@ -2,11 +2,11 @@
 % Please edit documentation in R/animals.R
 \name{sea_animals}
 \alias{sea_animals}
-\title{urls for sea animals}
+\title{urls for sea animals pictures}
 \usage{
 sea_animals()
 }
 \description{
-urls for sea animals
+urls for sea animals pictures
 }
 

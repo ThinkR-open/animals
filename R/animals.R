@@ -121,14 +121,32 @@ reptiles <- function(){
   scrap_all("reptiles")
 }
 
-#' urls for sea animals
+#' urls for sea animals pictures
 #' @export
 sea_animals <- function(){
   scrap_all("animaux-aquatiques")
 }
 
-#' urls for other animals
+#' urls for pictures of other animals
 #' @export
 other_animals <- function(){
   scrap_all("autres")
+}
+
+#' urls for other baby animals pictures
+#' @export
+other_baby_animals <- function(){
+  scrap_all("bebe,autres")
+}
+
+#' urls for all animal pictures
+#' @export
+all_animals <- function(){
+  scrap_all("toutes")
+}
+
+#' urls for all baby animal pictures
+#' @export
+all_baby_animals <- function(){
+  scrap_all("bebe,toutes")
 }
