@@ -35,11 +35,15 @@ scrap_all <- function(what = "bebe,chats", .progress = "text", ...){
   unlist(res)
 }
 
+#' urls for pictures of cats
+#' 
 #' @export
 cats <- function(){
   scrap_all("chats")
 }
   
+#' urls for pictures of kittens
+#' 
 #' @export
 kittens <- function(){
   scrap_all("bebe,chats")
