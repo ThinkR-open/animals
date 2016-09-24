@@ -72,3 +72,15 @@ horses <- function(){
 foals <- function(){
   scrap_all("bebe,chevaux")
 }
+
+#' urls for pictures of rodents
+#' @export
+rodents <- function(){
+  scrap_all("rongeurs")
+}
+
+#' urls for pictures of rodents
+#' @export
+baby_rodents <- function(){
+  scrap_all("bebe,rongeurs")
+}
