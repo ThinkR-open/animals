@@ -126,3 +126,9 @@ reptiles <- function(){
 sea_animals <- function(){
   scrap_all("animaux-aquatiques")
 }
+
+#' urls for other animals
+#' @export
+other_animals <- function(){
+  scrap_all("autres")
+}
