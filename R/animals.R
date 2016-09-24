@@ -120,3 +120,9 @@ baby_farm_animals <- function(){
 reptiles <- function(){
   scrap_all("reptiles")
 }
+
+#' urls for sea animals
+#' @export
+sea_animals <- function(){
+  scrap_all("animaux-aquatiques")
+}
