@@ -27,7 +27,6 @@ scrap <- function(what = "bebe,chats", page=1 ){
 #' @importFrom plyr llply
 scrap_all <- function(what = "bebe,chats", .progress = "text", ...){
   pages <- npages(what)
-  print(pages)
   res <- llply( seq_len(pages), function(i){
     scrap(what, page=i)
   }, .progress = .progress, ... )
