@@ -20,7 +20,7 @@
 \alias{reptiles}
 \alias{rodents}
 \alias{sea_animals}
-\title{urls for pictures of cats}
+\title{urls for pictures of animals}
 \usage{
 cats()
 
@@ -61,42 +61,6 @@ all_animals()
 all_baby_animals()
 }
 \description{
-urls for pictures of cats
-
-urls for pictures of kittens
-
-urls for pictures of dogs
-
-urls for pictures of puppies
-
-urls for pictures of horses
-
-urls for pictures of foals
-
-urls for pictures of rodents
-
-urls for pictures of rodents
-
-urls for pictures of birds
-
-urls for pictures of chicks
-
-urls for pictures of arthropods
-
-urls for pictures of farm animals
-
-urls for pictures of farm animals
-
-urls for pictures of reptiles
-
-urls for sea animals pictures
-
-urls for pictures of other animals
-
-urls for other baby animals pictures
-
-urls for all animal pictures
-
-urls for all baby animal pictures
+urls for pictures of animals
 }
 
