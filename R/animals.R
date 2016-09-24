@@ -12,7 +12,6 @@ npages <- function( what = "bebe,chats" ){
 
 #' @importFrom xml2 read_html
 #' @importFrom rvest html_nodes html_attr
-#' @export
 scrap <- function(what = "bebe,chats", page=1 ){
   url <- sprintf( "http://www.photos-animaux.com/photos,%s;%d.html", what, page )
   photos <- read_html(url) %>%
