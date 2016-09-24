@@ -48,3 +48,15 @@ cats <- function(){
 kittens <- function(){
   scrap_all("bebe,chats")
 }
+
+#' urls for pictures of dogs
+#' @export
+dogs <- function(){
+  scrap_all("chiens")
+}
+
+#' urls for pictures of puppies
+#' @export
+puppies <- function(){
+  scrap_all("bebe,chiens")
+}
