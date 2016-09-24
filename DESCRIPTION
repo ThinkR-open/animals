@@ -1,0 +1,16 @@
+Package: animals
+Type: Package
+Title: Scrapping pictures of animals
+Version: 0.0.0
+Authors@R: person("Romain", "Francois", email = "romain@r-enthusiasts.com", role = c("aut", "cre"))
+Description: Scrapping pictures of animals
+License: MIT + file LICENSE
+Imports:
+    rvest,
+    magrittr,
+    xml2,
+    tibble,
+    plyr,
+    dplyr
+LazyData: TRUE
+RoxygenNote: 5.0.1
